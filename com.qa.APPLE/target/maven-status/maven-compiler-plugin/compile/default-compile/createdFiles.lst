@@ -1,0 +1,11 @@
+com\qa\PAGE\QA_MAC__Page.class
+com\qa\PAGE\QA_SUPPORT__Page.class
+com\qa\PAGE\QA_IPAD__Page.class
+com\qa\Support_codebase\QA_TEST_util.class
+com\TESTBASE_.class
+com\qa\PAGE\QA_TV__Page.class
+com\qa\PAGE\QA_WATCH__Page.class
+com\qa\PAGE\QA_HOME__Page.class
+com\qa\PAGE\QA_IPHONE__Page.class
+com\qa\PAGE\QA_MUSIC__Page.class
+com\qa\PAGE\QA_WHERETOBUY__Page.class

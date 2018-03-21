@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.572 s <<< FAILURE! - in TestSuite
+failed_test1(com.qa.TEST_page.QA_Failed_testing)  Time elapsed: 0.331 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.TEST_page.QA_Failed_testing.failed_test1(QA_Failed_testing.java:17)
+
+failed_test1(com.qa.TEST_page.QA_Failed_testing)  Time elapsed: 0.092 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.TEST_page.QA_Failed_testing.failed_test1(QA_Failed_testing.java:17)
+

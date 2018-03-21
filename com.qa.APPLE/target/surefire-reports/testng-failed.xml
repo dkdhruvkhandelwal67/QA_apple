@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]" parallel="tests">
+  <listeners>
+    <listener class-name="Report.Listners_01"/>
+    <listener class-name="Report.Ireporters"/>
+  </listeners>
+  <test thread-count="3" verbose="0" name="Regression02(failed)" parallel="tests">
+    <parameter name="browser" value="browser2"/>
+    <classes>
+      <class name="com.qa.TEST_page.QA_Failed_testing">
+        <methods>
+          <include name="failed_test1"/>
+        </methods>
+      </class> <!-- com.qa.TEST_page.QA_Failed_testing -->
+    </classes>
+  </test> <!-- Regression02(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

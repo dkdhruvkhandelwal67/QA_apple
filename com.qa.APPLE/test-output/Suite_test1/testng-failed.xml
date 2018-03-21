@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite_test1]" parallel="classes">
+  <listeners>
+    <listener class-name="Reports_logs.LIstners_test"/>
+  </listeners>
+  <test thread-count="3" name="Test_test1(failed)" parallel="classes">
+    <classes>
+      <class name="com.qa.TEST_page.QA_HOME__Test">
+        <methods>
+          <include name="function1"/>
+          <include name="browser_open"/>
+        </methods>
+      </class> <!-- com.qa.TEST_page.QA_HOME__Test -->
+    </classes>
+  </test> <!-- Test_test1(failed) -->
+</suite> <!-- Failed suite [Suite_test1] -->
